@@ -8,6 +8,7 @@ on:
     types: [ started ]
   schedule:
     - cron: 9 0 * * *
+    - timezone: 'Asia/Shanghai'
 
 jobs:
   build:
