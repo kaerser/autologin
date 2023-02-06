@@ -7,10 +7,7 @@ on:
   watch:
     types: [ started ]
   schedule:
-    - cron: 9 0 * * *
-    
-env:
-  TZ: 'Asia/Shanghai'
+    - cron: 9 16 * * *
 
 jobs:
   build:
